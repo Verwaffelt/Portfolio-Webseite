@@ -1,0 +1,286 @@
+/* Grafische Gestaltung */
+
+
+
+/* Typografie */
+a {
+   font-family: verdana;
+   color: lightcyan;
+   font-size: 1.0em;
+   font-weight: 100;
+   text-transform: uppercase;
+}
+/* Hier wird die Schriftart für alle Texte festgelegt */
+h2, h3, p, a {
+    
+}
+
+/* Hier werden alle Überschriften gestaltet */
+section h2 {
+
+}
+
+/* Hier wird der Text für die längeren Texte gestaltet */
+section h3 {
+
+}
+
+/* Hier wird der Text für den Home Bereich gestaltet */
+#home h2{
+  
+}
+
+/* Hier wird der Text für den Button gestaltet */
+button a {
+
+}
+
+/* Hier wird die Textfarbe für den Button im Hover gestaltet */
+button a:hover {
+   
+}
+
+/* Hier wird der Text für die Link nach oben gestaltet */
+.oben {
+ 
+}
+
+
+/* Hier wird der Text für die Fortschrittsbalken gestaltet */
+#ruestzeug .block-6 p {
+
+}
+
+
+/* Topnavigation */
+
+body nav {
+    background-color: #a379d9;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    padding-top: 10px;
+}
+
+.name {
+    
+}
+
+nav .name a {
+   
+}
+
+nav ul {
+    float: right;
+    width: 50%;
+}
+
+nav li {
+  float: left;
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+nav li a{
+padding: 10px 15px;
+}
+nav ul a:hover {
+   border-bottom: 2px solid lightcyan;
+}
+
+/*  Sektion Home */
+#home {
+    background-image: url(../images/snowfall.jpg);
+    height: 681px;
+    border-bottom: 1px solid #AA98A9;
+    color: #AA98A9;
+    padding-top: 160px;
+    padding-bottom: 40px;
+    width:100%;
+    background-size: 100%;
+    /*background-position: bottom;*/
+    background-attachment: fixed;
+    /*Parallax Effekt*/
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+   
+}
+
+/*  Sektion Profil */
+#profil {
+   height: 800px;
+   padding-top: 100px;
+   background-color: #ccccff;
+   color: #6c3baa;
+    border-bottom: 1px solid #AA98A9;
+}
+
+/* Sektion Bild2  */
+#bild2 {
+    
+    /*Parallax Effekt*/
+    background-image: url(../images/abstract_paintng.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    /*Die Hintergrundgrafik ist fix auf dem Viewport - dem Anzeigebereich der Seite. Beim scrollen bleibt die Grafik an Ort und Stelle, ist jedoch nur sichtbar innerhablb des betreffenden elementes. */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Legt fest, ob der Hintergrund über die gesamte Breite oder/und Höhe eines Elements wiederholt wird.*/
+    background-size: cover;
+    /*Das cover Schlüsselwort behält das Seitenverhältnis des Hintergrundbildes bei und skaliert es so, dass es so klein wie möglich ist, aber den Hintergrund-Positionierungsbereicchs vollständig abdeckt. */
+    border-bottom: 1px solid #fff;
+   
+}
+
+/* Sektion Ausbildung */
+#ausbildung {
+   background-color: #ccccff;
+   height: 800px;
+   padding-top: 100px;
+   padding-bottom: 300px;
+    color: #6c3baa;
+    border-bottom: 1px solid #fff;
+}
+
+/* Sektion Bild3 */
+#bild3 {
+     /*Parallax Effekt*/
+    background-image: url(../images/purple_objects.png);
+    height: 500px;
+    background-attachment: fixed;
+    /*Die Hintergrundgrafik ist fix auf dem Viewport - dem Anzeigebereich der Seite. Beim scrollen bleibt die Grafik an Ort und Stelle, ist jedoch nur sichtbar innerhablb des betreffenden elementes. */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Legt fest, ob der Hintergrund über die gesamte Breite oder/und Höhe eines Elements wiederholt wird.*/
+    background-size: cover;
+    /*Das cover Schlüsselwort behält das Seitenverhältnis des Hintergrundbildes bei und skaliert es so, dass es so klein wie möglich ist, aber den Hintergrund-Positionierungsbereicchs vollständig abdeckt. */
+    border-bottom: 1px solid #cef0e5;
+   
+   
+}
+
+/* Sektion Ruestzeug */
+#ruestzeug {
+   background-color: #ccccff;
+   height: 800px;
+   padding-top: 100px;
+   padding-bottom: 300px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* Hier werden der Hintergrund des Fortschrittsbalkens gestaltet */
+#ruestzeug .block-6 {
+    background-color: lightcyan;
+    height: 30px;
+    border-radius: 5px;
+}
+#ruestzeug .block-6 p {
+    font-family: verdana;
+    padding-left: 5px;
+    text-align:left;
+    color: lightcyan;
+    font-size; 15px;
+}
+/* Hier werden der Fortschrittsbalken selbst gestaltet */
+#ruestzeug .block-6 div {
+    background-color: #a379d9;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+
+/* Sektion Bild4 */
+#bild4 {
+/*Parallax Effekt*/
+    background-image: url(../images/purple_rose.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    /*Die Hintergrundgrafik ist fix auf dem Viewport - dem Anzeigebereich der Seite. Beim scrollen bleibt die Grafik an Ort und Stelle, ist jedoch nur sichtbar innerhablb des betreffenden elementes. */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Legt fest, ob der Hintergrund über die gesamte Breite oder/und Höhe eines Elements wiederholt wird.*/
+    background-size: cover;
+    /*Das cover Schlüsselwort behält das Seitenverhältnis des Hintergrundbildes bei und skaliert es so, dass es so klein wie möglich ist, aber den Hintergrund-Positionierungsbereicchs vollständig abdeckt. */
+    border-bottom: 1px solid #fff;
+   
+   
+}
+
+/* Sektion Portfolio */
+#portfolio {
+   height: 1200px;
+   padding-top: 100px;
+    background-color: #ccccff;
+   padding-bottom: 300px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* Sektion Bild5 */
+#bild5 {
+ /*Parallax Effekt*/
+    background-image: url(../images/hearts.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    /*Die Hintergrundgrafik ist fix auf dem Viewport - dem Anzeigebereich der Seite. Beim scrollen bleibt die Grafik an Ort und Stelle, ist jedoch nur sichtbar innerhablb des betreffenden elementes. */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Legt fest, ob der Hintergrund über die gesamte Breite oder/und Höhe eines Elements wiederholt wird.*/
+    background-size: cover;
+    /*Das cover Schlüsselwort behält das Seitenverhältnis des Hintergrundbildes bei und skaliert es so, dass es so klein wie möglich ist, aber den Hintergrund-Positionierungsbereicchs vollständig abdeckt. */
+    border-bottom: 1px solid #cef0e5;
+   
+   
+}
+
+/* Sektion Kontakt */
+#kontakt {
+   height: 800px;
+   padding-top: 100px;
+    background-color: #ccccff;
+   padding-bottom: 300px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+form input, textarea {
+ font-family: verdana;
+ font-size: 15px;
+ margin-bottom: 10px;
+ border-radius: 2px;
+ border: solid;
+ border-color: #494949;}
+form input {
+ width: 552px;
+ height: 30px;}
+form input:first-child {
+ margin-top: 10px;}
+form textarea {
+ width: 550px;
+ height: 200px;
+ resize: none;}
+.input_text {
+ color: #494949;
+ padding-left: 10px;}
+::-webkit-input-placeholder {color: #999999;}
+::-moz-placeholder {color: #999999;}
+:-ms-input-placeholder {color: #999999;}
+:-moz-placeholder {color: #999999;}
+/* Hier wird der Kontaktbutton gestaltet */
+#kontakt button {
+background-color: #f0f0f0;
+ color: #494949;
+ width: 560px;
+ height: 50px;
+}
+
+
+/* Hier wird der Mousehover für den Kontaktbutton gestaltet */
+button:hover {
+background-color: #494949;
+ color: #f0f0f0;
+ font-weight: bold;
+}
